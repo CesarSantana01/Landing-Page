@@ -1,5 +1,8 @@
 body{   
 }
+/* font family is verdana*/
+
+
 /*break*/
 /* header*/
 .header{
@@ -14,7 +17,7 @@ body{
 display: flex;
 color: white;
 font-size: 20px;
-font-family:Verdana, Geneva, Tahoma, sans-serif ;
+font-family:'Courier New', Courier, monospace;
 }
 
 .headerlinks{
@@ -22,9 +25,10 @@ font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 .headerlinks,
 ul{
+font-family: 'Courier New', Courier, monospace;
 display: flex;
 color: white;
-font-size: 16px;
+font-size: 12px;
 gap: 15px;
 align-items: center;
 list-style-type: none;
@@ -33,10 +37,11 @@ list-style-type: none;
 /* row 1 */
 .row1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(100, 56, 38);
     height: 300px;
+    gap: 140px;
 }
 
 .row1content{
@@ -46,8 +51,7 @@ list-style-type: none;
     width: 300px;
     margin-left: 160px;
 }
-.title{
-    color: whitesmoke;
+.title1{
     font-size: 30px;
     margin-bottom: -10px;
 }
@@ -67,3 +71,34 @@ button{
 }
 /* break */
 /* row 2 */
+
+.row2{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+}
+.title2{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+
+.card{
+    text-align: center;
+    max-width: 150px;
+}
+
+#cardimg{
+    height: 100px;
+    width: 100px;
+}
+  
+
