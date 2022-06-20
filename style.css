@@ -1,16 +1,15 @@
-body{
-    display:flex
+body{   
 }
-
+/*break*/
+/* header*/
 .header{
     display: flex;
+    flex-basis: 100%;
     justify-content: space-around;
     align-items: center;
-    flex:1;
     background-color: rgb(115, 64, 44);
-    height: 75px;;
+    height: 50px;
 }
-
 .headerlogo{
 display: flex;
 color: white;
@@ -18,9 +17,10 @@ font-size: 20px;
 font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-.headeritems{
+.headerlinks{
+    
 }
-
+.headerlinks,
 ul{
 display: flex;
 color: white;
@@ -29,4 +29,41 @@ gap: 15px;
 align-items: center;
 list-style-type: none;
 }
+/* break */
+/* row 1 */
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 56, 38);
+    height: 300px;
+}
 
+.row1content{
+    color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 160px;
+}
+.title{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+button{
+    border-radius: 5px;
+    height: 30px;
+    width:80px;
+    background-color: rgb(64, 115, 255);
+    color: white;
+}
+
+.row1image{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-right: 300px;
+}
+/* break */
+/* row 2 */
