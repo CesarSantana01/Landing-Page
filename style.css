@@ -1,0 +1,32 @@
+body{
+    display:flex
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+    background-color: rgb(115, 64, 44);
+    height: 75px;;
+}
+
+.headerlogo{
+display: flex;
+color: white;
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.headeritems{
+}
+
+ul{
+display: flex;
+color: white;
+font-size: 16px;
+gap: 15px;
+align-items: center;
+list-style-type: none;
+}
+
