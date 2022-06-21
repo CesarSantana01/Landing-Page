@@ -19,7 +19,6 @@ color: white;
 font-size: 20px;
 font-family:'Courier New', Courier, monospace;
 }
-
 .headerlinks{
     
 }
@@ -45,22 +44,33 @@ list-style-type: none;
 }
 
 .row1content{
+    
     color: whitesmoke;
     display:flex;
     flex-direction: column;
     width: 300px;
+    text-align: left;
+    margin: 20px;
+     
+}
+.row1cc{
+    display:flex;
+    background-color: rgb(82, 45, 31);
+    border: 2px solid rgb(82, 45, 31);
+    border-radius: 10px;
     margin-left: 160px;
 }
 .title1{
     font-size: 30px;
+    margin-top: 0px;
     margin-bottom: -10px;
 }
 button{
     border-radius: 5px;
     height: 30px;
     width:80px;
-    background-color: rgb(64, 115, 255);
-    color: white;
+    background-color: beige;
+    color: rgb(94, 50, 2);
 }
 
 .row1image{
@@ -92,13 +102,82 @@ button{
 }
 
 .card{
+    
     text-align: center;
     max-width: 150px;
 }
 
 #cardimg{
+    border: 3px solid rgb(100, 56, 38);
+    border-radius: 20px;
     height: 100px;
     width: 100px;
+    margin: 20px;
 }
+/* break */
+/* row 3 */
+
+.row3{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+.row3content{
+    padding: 10px;
+    border: 5px ridge rgb(115, 64, 44);
+    border-radius: 10px;
+    font-size: 30px;
+    max-width: 600px;
+}
+
+/* break */
+/* row 4 */
+
+.row4{
+    background-color:whitesmoke ;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row4content{
+    background-color: rgb(115, 64, 44);
+   display: flex;
+    
+   height:90px;
+   width: 600px;
+   border: 2px rgb(82, 45, 31);
+   border-radius: 5px;
+   border-style: ridge;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
   
+}
+
+.row4cc{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    padding-top: 25px ;
+}
+
+/* break */
+/* footer */
+
+.footer{
+    color: white;
+    background-color: rgb(94, 50, 2);
+    display: flex;
+    height: 80px;
+}
+
+.copyright{
+    margin: auto;
+}
 
